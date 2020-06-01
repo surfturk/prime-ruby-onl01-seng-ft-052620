@@ -1,13 +1,8 @@
-def is_prime?(nums)
-    nums.each do |num|
-    i = 2
-      while i < num
-        if num % i == 0
-          false
-        else
-          true
-        end
-        
-      end
-   end
- end
+def is_prime(num)
+  n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
+  end
+  true
+end
