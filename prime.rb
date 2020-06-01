@@ -1,3 +1,4 @@
-def prime(integer)
+def prime(num)
+  
   
 end  
