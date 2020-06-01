@@ -7,7 +7,7 @@ def is_prime?(nums)
         else
           true
         end
-        i += 1
+        
       end
    end
 end
