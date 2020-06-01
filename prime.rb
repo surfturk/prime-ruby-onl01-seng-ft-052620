@@ -10,4 +10,3 @@ def is_prime?(nums)
         
       end
    end
-end
