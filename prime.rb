@@ -1,8 +1,12 @@
-def is_prime(num)
-  n = 2
-  while n < num
-    return false if num % n == 0
-    n += 1
+def prime?(value)
+  if value <= 1 || value == 0 || value == 1
+    return false
+  elsif
+    (2..value - 1).each do |i|
+      if value % i == 0
+      return false
+    end
   end
-  true
+end
+true  
 end
